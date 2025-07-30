@@ -15,14 +15,9 @@ cd rate-limiter
 go run .
 ```
 
-Ensure Redis is running locally at the configured address (default `localhost:6379`). Then visit http://localhost:8080/ping
+## default setting is 10 req per min per IP address 
 
-## Configuration
-Env vars (prefix `RATE_`) or `config.yaml`:
-* `REDIS_ADDR` (default `localhost:6379`)
-* `CAPACITY` tokens (default 100)
-* `WINDOW` duration (default `1m`)
-* `SERVER_PORT` (default `:8080`)
+<img width="1591" height="707" alt="Screenshot 2025-07-30 202450" src="https://github.com/user-attachments/assets/b5097df1-0fc7-4397-b28a-f6c433dd1c78" />
 
-## Benchmarks
-Run `go test ./... -bench=.` (TODO: add benchmark script). 
+
+<img width="1526" height="733" alt="Screenshot 2025-07-30 202511" src="https://github.com/user-attachments/assets/aba97728-176d-457c-b693-3fda45653cf8" />
