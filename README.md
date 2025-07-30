@@ -1,4 +1,4 @@
-# Distributed Rate Limiter (Go)
+# Distributed Rate Limiter (Go) and (REDIS)
 
 Distributed token-bucket rate limiter using Redis as the central state store.
 
